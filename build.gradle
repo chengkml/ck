@@ -1,0 +1,21 @@
+// 定义项目使用的插件
+plugins {
+    // 应用 Java 插件，用于支持 Java 项目的构建
+    id 'java'
+}
+
+// 设置项目的组名，通常用于标识项目所属的组织或公司
+group = 'com.ck'
+// 设置项目的版本号
+version = '0.0.1'
+// 指定项目源代码的兼容版本
+sourceCompatibility = '17'
+
+// 对所有子项目应用配置
+allprojects {
+    // 配置项目的依赖仓库
+    repositories {
+        // 使用 Maven 中央仓库作为依赖源
+        mavenCentral()
+    }
+}

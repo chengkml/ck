@@ -1,0 +1,21 @@
+/**
+ * 定义项目使用的插件。
+ * 每个插件都有一个唯一的ID和版本号。
+ */
+plugins {
+    // 应用Spring Boot插件，版本为3.2.3
+    id 'org.springframework.boot' version '3.2.3'
+    // 应用Spring依赖管理插件，版本为1.1.4
+    id 'io.spring.dependency-management' version '1.1.4'
+    // 应用Java插件，支持Java项目的构建
+    id 'java'
+}
+
+/**
+ * 定义项目的依赖项。
+ * 依赖项分为不同的配置，如implementation、testImplementation等。
+ */
+dependencies {
+    // 添加Spring Boot Web启动器作为项目的实现依赖
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}

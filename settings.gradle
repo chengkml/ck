@@ -1,0 +1,2 @@
+// 包含名为 'user'、'team' 和 'project' 的子项目到当前的Gradle构建中
+include 'boot','web','user','team','project'
