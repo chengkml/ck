@@ -16,6 +16,8 @@ plugins {
  * 依赖项分为不同的配置，如implementation、testImplementation等。
  */
 dependencies {
+    // 集成父项目的依赖管理
+    implementation project(':ck')
     // 添加Spring Boot Web启动器作为项目的实现依赖
     implementation 'org.springframework.boot:spring-boot-starter-web'
 }

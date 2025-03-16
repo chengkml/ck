@@ -1,0 +1,24 @@
+# Application Configuration
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ck
+  datasource:
+    url: jdbc:mysql://localhost:3306/ck_tools?useSSL=false&serverTimezone=UTC
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1qaz!QAZ
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+# Logging Configuration
+logging:
+  level:
+    root: INFO

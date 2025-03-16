@@ -1,2 +1,4 @@
-// 包含名为 'user'、'team' 和 'project' 的子项目到当前的Gradle构建中
-include 'boot','web','user','team','project'
+// 设置根项目的名称为 'CK'
+rootProject.name = 'CK'
+// 包含子项目到构建中，这里列出了多个子项目，如 'boot'、'web'、'user' 等
+include 'boot','web'
