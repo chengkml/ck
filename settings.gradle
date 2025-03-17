@@ -1,4 +1,4 @@
-// 设置根项目的名称为 'CK'
+// 设置根项目的名称
 rootProject.name = 'CK'
-// 包含子项目到构建中，这里列出了多个子项目，如 'boot'、'web'、'user' 等
-include 'boot','web'
+// 通过include语句指定参与构建的子项目
+include 'backend:boot'
